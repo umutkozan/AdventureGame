@@ -25,25 +25,37 @@ Armor.java: Represents armor that the player can equip.
 Locations and Battles
 
 Location.java: An abstract class that serves as the base for different game locations.
+
 NormalLocation.java: A subclass of Location representing non-combat locations.
+
 BattleLocation.java: A subclass of Location representing combat locations.
+
 SafeHouse.java: A safe location where the player can rest and recover health.
+
 ToolStore.java: A location where the player can buy weapons and armor.
 
 Specific Locations
 
 Cave.java, Forest.java, River.java: Subclasses of BattleLocation, each representing a different location with unique monsters and challenges.
+
 Monsters
 Monster.java: An abstract class that serves as the base for different monsters.
+
 Bear.java, Vampire.java, Zombie.java: Subclasses of Monster, each representing a different type of enemy with unique attributes.
+
 Miscellaneous
 BattleLocation.java: Handles battles between the player and monsters.
+
 .gitignore: Specifies files and directories to be ignored by Git.
+
 AdventureGame.iml: IntelliJ IDEA module file.
+
 How to Play
 Clone the repository to your local machine.
+
 Open the project in your preferred Java IDE (e.g., IntelliJ IDEA, Eclipse).
 Compile and run the Main.java class to start the game.
+
 Follow the on-screen instructions to create your character, explore locations, battle monsters, and collect items.
 
 Character Classes
